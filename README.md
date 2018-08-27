@@ -1,4 +1,5 @@
 # Nonequilibrium Free-Energy Calculations of Fluids using LAMMPS package
+
 What is this?
 ------------
 This repository contains a set of source codes and input scripts that allows to perform nonequilibrium free-energy calculations of fluid-phase systems using [LAMMPS](http://lammps.sandia.gov/) package. Details about the code implementation, capabilities and obtained results with these methods will be found in:
