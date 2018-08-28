@@ -16,6 +16,23 @@ source codes: The main directory contains our LAMMPS source codes.
 
 [`README`](README.md): A brief overview of the distribution.
 
+What is new in these codes?
+--------------
+| Code Name                       | Already exist? |  Modification |
+| :---                            |     :---:      |     :---      |
+|fix_adapt.cpp / .h               | yes            | Added a fscale keyword for kspace pppm and pppm/tip4p styles to adapt only the forces during MD simulations. |
+|kspace.cpp / .h                  | yes            | Added a fscale variable in extract function.                           |
+|meam_force.cpp                   | yes            | Added a fscale variable into meam_force function.                         |
+|meam.h                           | yes            | Added a fscale variable into meam_force function.                           |
+|pair_lj_cut_coul_long.cpp / .h   | yes            | Added a fscale variable (which multiplies only the forces) in the extract() method.                           |
+|pair_lj_cut_tip4p_long.cpp / .h  | yes            | Added a fscale variable (which multiplies only the forces) in the extract() method.                         |
+|pair_meam.cpp / .h               | yes            | Added a fscale variable (which multiplies only the forces) and the extract() method to adapt parameter over the time.                         |
+|pair_sw.cpp / .h                 | yes            | Added a fscale variable (which multiplies only the forces) and the extract() method to adapt parameter over the time.                         |
+|pair_ufm.cpp / .h                | yes            | Added citation information inside the code.                          |
+|pair_ufm_rw.cpp / .h             | no             | A new pair style which is based on LAMMPS implementation of TIP4P water model.                          |
+|pppm_tip4p.cpp / .h              | yes            | Added a fscale variable (which multiplies only the forces).                          |
+|pppm.cpp / .h                    | yes            | Added a fscale variable (which multiplies only the forces).                          |
+
 How to install?
 --------------
 To install these source codes, please follow the steps below:
