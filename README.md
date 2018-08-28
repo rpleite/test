@@ -20,7 +20,7 @@ How to install?
 --------------
 To install these source codes, please follow the steps below:
 
-1) Go to LAMMPS webpage (lammps.sandia.gov/download.html) and download the source code at your local machine.
+1) Go to LAMMPS webpage (https://lammps.sandia.gov/download.html) and download the source code at your local machine.
 
 2) Clone this repository to a subdirectory named `USER-FFE` inside the `src/` directory of your LAMMPS installation:
 ```
