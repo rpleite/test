@@ -21,7 +21,7 @@ What is new in these source codes?
 | Code Name                       | Already exist? |  Modification |
 | :---                            |     :---:      |     :---      |
 |fix_adapt.cpp / .h               | yes            | Added a fscale keyword for kspace pppm and pppm/tip4p styles to adapt only the forces during MD simulations. |
-|kspace.cpp / .h                  | yes            | Added a fscale variable in extract function.                           |
+|kspace.cpp / .h                  | yes            | Added a fscale variable in extract() method.                           |
 |meam_force.cpp                   | yes            | Added a fscale variable into meam_force function.                         |
 |meam.h                           | yes            | Added a fscale variable into meam_force function.                           |
 |pair_lj_cut_coul_long.cpp / .h   | yes            | Added a fscale variable (which multiplies only the forces) in the extract() method.                           |
