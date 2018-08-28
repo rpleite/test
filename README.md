@@ -62,7 +62,7 @@ NOTE: Steps i, ii, and iii are necessary to install the required packages to rep
 
 How to use these codes?
 --------------
-Instructions of how to use these codes can be found inside each LAMMPS input script in the [`examples`](examples) directory or in our [paper](https://).
+Instructions of how to use these codes can be found inside each LAMMPS input script in the [`examples`](examples) directory and in our [paper](https://).
 
 Contact:
 --------------
