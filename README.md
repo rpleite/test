@@ -16,7 +16,7 @@ source codes: The main directory contains our LAMMPS source codes.
 
 [`README`](README.md): A brief overview of the distribution.
 
-What is new in these codes?
+What is new in these source codes?
 --------------
 | Code Name                       | Already exist? |  Modification |
 | :---                            |     :---:      |     :---      |
