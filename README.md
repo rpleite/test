@@ -10,6 +10,8 @@ Computational Material Science (submitted)](https://)
 
 What are the repository contents?
 --------------
+[`doc`](doc): This directory contains an updated user manual.
+
 [`examples`](examples): This directory contains input scripts to run MD simulations.
 
 source codes: The main directory contains our LAMMPS source codes.
@@ -48,15 +50,17 @@ WARNING: The next step will overwrite some native source codes in your src folde
 
 3) Choose some machine file (e.g. Makefile.mpi) and build LAMMPS using the following commands:
 
-i) make yes-rigid
+i) make yes-kspace
 
-ii) make yes-user-meamc
+ii) make yes-rigid
 
-iii) make yes-user-ffe
+iii) make yes-user-meamc
 
-iv) make mpi
+iv) make yes-user-ffe
 
-NOTE: Steps i, ii, and iii are necessary to install the required packages to reproduce the results presented in our [paper](https://).
+v) make mpi
+
+NOTE: Steps i, ii, iii and iv are necessary to install the required packages to reproduce the results presented in our [paper](https://).
 
 4) If LAMMPS was successully built, an executable called "lmp_mpi" will be created in the src directory. Otherwise, an error message is reported. For futher details, please visit the ["Build LAMMPS"](https://lammps.sandia.gov/doc/Build.html) section on user documentation.
 
