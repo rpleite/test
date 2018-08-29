@@ -18,7 +18,7 @@ source codes: The main directory contains our LAMMPS source codes.
 
 What is new in these source codes?
 --------------
-| Code Name                       | Already exist? |  Modification |
+| Code Name                       | Already exists? |  Modification |
 | :---                            |     :---:      |     :---      |
 |fix_adapt.cpp / .h               | yes            | Added a fscale keyword for kspace pppm and pppm/tip4p styles to adapt only the forces during MD simulations. |
 |kspace.cpp / .h                  | yes            | Added a fscale variable in extract() method.                           |
