@@ -1,4 +1,4 @@
-# Nonequilibrium Free-Energy Calculations of Fluids using LAMMPS code
+# Nonequilibrium Free-Energy Calculations of Fluids using LAMMPS
 
 What is this?
 ------------
