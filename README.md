@@ -32,8 +32,8 @@ What is new in these source codes?
 |pair_sw.cpp / .h                 | yes            | Added a fscale variable (which multiplies only the forces) and the extract() method to adapt parameter over the time.                         |
 |pair_ufm.cpp / .h                | yes            | Added citation information inside the code.                          |
 |pair_ufm_rw.cpp / .h             | no             | A new pair style which is based on LAMMPS implementation of TIP4P water model.                          |
-|pppm_tip4p.cpp / .h              | yes            | Added a fscale variable (which multiplies only the forces).                          |
-|pppm.cpp / .h                    | yes            | Added a fscale variable (which multiplies only the forces).                          |
+|pppm_tip4p.cpp / .h              | yes            | Added an option to set fscale variable (which multiplies only the forces) when pppm_tip4p styles is invoked.                          |
+|pppm.cpp / .h                    | yes            | Added an option to set fscale variable (which multiplies only the forces) when pppm styles is invoked.                         |
 
 How to install?
 --------------
