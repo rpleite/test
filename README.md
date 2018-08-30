@@ -52,15 +52,17 @@ WARNING: The next step will overwrite some native source codes in your src folde
 
 i) make yes-kspace
 
-ii) make yes-rigid
+ii) make yes-molecule
 
-iii) make yes-user-meamc
+iii) make yes-rigid
 
-iv) make yes-user-ffe
+iv) make yes-user-meamc
 
-v) make mpi
+v) make yes-user-ffe
 
-NOTE: Steps i, ii, iii and iv are necessary to install the required packages to reproduce the results presented in our [paper](https://).
+vi) make mpi
+
+NOTE: Steps (i-v) are necessary to install the required packages to reproduce the results presented in our [paper](https://).
 
 4) If LAMMPS was successully built, an executable called "lmp_mpi" will be created in the src directory. Otherwise, an error message is reported. For futher details, please visit the ["Build LAMMPS"](https://lammps.sandia.gov/doc/Build.html) section on user documentation.
 
