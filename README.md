@@ -68,6 +68,11 @@ How to use these codes?
 --------------
 Instructions of how to use these codes can be found inside each LAMMPS input script in the [`examples`](examples) directory and in our [paper](https://).
 
+Compatibility:
+--------------
+
+lammps-22Aug18
+
 Contact:
 --------------
 Rodolfo Paula Leite - pl.rodolfo@gmail.com
